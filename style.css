@@ -631,8 +631,17 @@ section{
 /* Responsify Defaults */
 
 @media screen and (max-width: 768px){
-   
-
+  header {
+    margin-top: 0; /* Reduces top margin if there's any extra space */
+    padding-top: 10px; /* Adjust padding as needed */
+    padding-bottom: 10px; /* Adjust padding at the bottom */
+  }
+    
+  footer {
+    margin-bottom: 0; /* Removes bottom margin if any */
+    padding-bottom: 10px; /* Adjust bottom padding */
+  }
+  
   .span1, article{
     width: 100%;
   }
@@ -672,7 +681,7 @@ section{
 
 @media screen and (max-width: 480px){
   #mainPic {
-    margin-left: -120px;
+    margin-left: -127px;
    
   }
   footer {
