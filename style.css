@@ -631,6 +631,13 @@ section{
 /* Responsify Defaults */
 
 @media screen and (max-width: 768px){
+   #main, #one {
+    margin-bottom: 0; /* Reduces any extra bottom margin from both elements */
+    margin-top: 0;    /* Reduces any extra top margin, if present */
+    padding: 0;       /* Removes any padding inside both elements */
+  }
+  
+  
   header {
     margin-top: 0; /* Reduces top margin if there's any extra space */
     padding-top: 10px; /* Adjust padding as needed */
@@ -659,7 +666,7 @@ section{
   margin-left: -45px;
 }
 #one {
-  margin-left: -10px;
+  margin-left: -16px;
 }
   #formwrap {
     display: none;
