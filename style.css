@@ -672,8 +672,8 @@ section{
 
 @media screen and (max-width: 480px){
   #mainPic {
-    margin-left: -16px;
-    margin-right: auto;
+    margin-left: -50px;
+   
   }
   footer {
     margin-left: -5px;
