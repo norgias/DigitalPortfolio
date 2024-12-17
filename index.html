@@ -13,12 +13,12 @@
   <link rel="stylesheet" href="style.css?v1.1">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />	
 	
- <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> -->
+  <!-- Jquery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
  
   
- 
-<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js"></script>
+  <!-- Modernizer -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js"></script>
 
   <style type="text/css">
     img.port {
@@ -185,7 +185,23 @@
   <footer>
     &copy 2016 - Nicolas J Orgias - Dynamic Web Development
   </footer>
+
+<-- swiper scripts -->	
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script src="js/jquery.js?v1.0"></script>
+<script>
+  // Initialize Swiper Slider
+  const swiper = new Swiper('.swiper-container', {
+    loop: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    spaceBetween: 35, /* Adds space between slides */
+  });
+</script>
 </body>
 </html>
