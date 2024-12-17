@@ -756,7 +756,7 @@ img {
 
 .swiper-slide img {
   max-width: 100%;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 3.5);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 3.5) !important;
   height: auto;
   display: block;
   margin: auto;
