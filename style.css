@@ -775,7 +775,7 @@ h1.ort {
 /* Ensure box-shadow is retained on desktop view */
 @media (min-width: 980px) {
   .swiper-slide img {
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3) !important;
   }
 }
 
