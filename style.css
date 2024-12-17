@@ -750,12 +750,12 @@ img {
 
 .swiper-slide {
   text-align: center;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  
 }
 
 .swiper-slide img {
   max-width: 100%;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 2.5);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 3.5);
   height: auto;
   display: block;
   margin: auto;
