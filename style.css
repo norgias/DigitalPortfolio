@@ -747,6 +747,10 @@ img {
   margin-left: -20px !important; /* Force margin-left to override */
   padding: 20px;
   z-index: 1;
+  overflow: visible;
+}
+  .swiper-wraper {
+    overflow: visible;
 }
 
 .swiper-slide {
