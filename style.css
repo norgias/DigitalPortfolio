@@ -743,6 +743,7 @@ img {
   width: 100%;
   max-width: 800px;
   margin: auto;
+  margin-left: -25px !important; /* Force margin-left to override */
   padding: 20px;
   z-index: 1;
 }
