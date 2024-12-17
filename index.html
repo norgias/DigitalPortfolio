@@ -1,97 +1,100 @@
-<!doctype html>
 <html> 
 <head>
-  <!-- Basic Metadata -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
-  <meta http-equiv="pragma" content="no-cache">
-  <meta http-equiv="expires" content="0">
-
+	<!-- cache busters -->
+	<meta http-equiv="pragma" content="no-cache">
+        <meta http-equiv="expires" content="0">
+	
   <title>Nick Orgias - Digital Portfolio</title>
  
-  <!-- Favicon -->
   <link rel="shortcut icon" href="/favicon.ico">
-  
-  <!-- Stylesheets -->
-  <link rel="stylesheet" href="style.css?v1.1"> <!-- Custom Styles -->
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> <!-- Swiper CSS -->
-  
-  <!-- jQuery Library -->
+  <link rel="stylesheet" href="style.css?v1.1">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />	
+	
+ <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+ 
   
-  <!-- Modernizr -->
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js"></script>
-  
-  <!-- Inline Styles -->
+ 
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js"></script>
+
   <style type="text/css">
     img.port {
-      box-shadow: 10px 10px 5px #888888; /* Add shadows to portfolio images */
+      box-shadow: 10px 10px 5px #888888;
     }
-
     section.clearfix {
       margin-top: 45px;
       min-height: 100px;
     }
 
-    /* Fix Overlapping Swiper Images */
-    .swiper-slide img {
-      width: 100%; /* Ensures image fits its container */
-      height: auto; /* Keeps aspect ratio */
-      display: block; /* Ensures spacing doesn't collapse */
-      margin: 10px auto; /* Adds uniform spacing */
-    }
   </style>
+ 
 </head>
 
 <body class="cf">
-
-<!-- Header Section -->
+<div class="cont">
 <header class="clearfix">
-  <div class="container">
-    <div class="header-left">
-      <h1>NICOLAS J ORGIAS</h1>
+    <div class="container">
+      <div class="header-left">
+        <h1>NICOLAS J ORGIAS</h1>
+      </div>
+      <div class="header-right">
+        <label for="open">
+          <span class="hidden-desktop"></span>
+        </label>
+        <input type="checkbox" name="" id="open">
+        <nav>
+                <a href="#myAnchor0" rel="" id="anchor0">Home</a>
+                
+                <a href="#myAnchor" rel="" id="anchor1" class="anchorLink">Portfolio</a>
+                <a href="#myAnchor2" rel="" id="anchor2" class="anchorLink">Interests</a>
+                <a href="#myAnchor3" rel="" id="anchor3" class="anchorLink">Contact</a>
+        </nav>
+      </div>
     </div>
-    <div class="header-right">
-      <label for="open">
-        <span class="hidden-desktop"></span>
-      </label>
-      <input type="checkbox" name="" id="open">
-      <!-- Navigation Menu -->
-      <nav>
-        <a href="#myAnchor0" id="anchor0">Home</a>
-        <a href="#myAnchor" id="anchor1" class="anchorLink">Portfolio</a>
-        <a href="#myAnchor2" id="anchor2" class="anchorLink">Interests</a>
-        <a href="#myAnchor3" id="anchor3" class="anchorLink">Contact</a>
-      </nav>
-    </div>
-  </div>
-</header>
-
-<!-- Welcome Section -->
+  </header>
+  </div class="cont">
 <section class="clearfix" style="width: 100%;">
-  <div class="container">
-    <h1>Welcome to my Page!</h1>
-    <p>
-      Hello! My name is Nicolas J. Orgias, and I was born and raised in the vibrant city of Toronto, Ontario. 
-      I have a deep passion for design and problem-solving, always striving to create meaningful and innovative solutions.
-    </p>
-  </div>
-</section>
+    <div class="container">
+      <div class="section-left">
+        <h1 class="section-title"></h1>
+        <h5 class="section-tagline"></h5>
+      </div>
+      
+    </div>
+  </section>
 
-<aside class="span1 col">
+  <div id="container" class="cf">  
+
+  	<article class="span1">
+				<div class="sect">
+          <a name="myAnchor0" id="myAnchor0"></a>
+          <h1>Welcome to my Page!</h1>
+          <br>
+          <p>Hello! My name is Nicolas J. Orgias, and I was born and raised in the vibrant city of Toronto, Ontario. I have a deep passion for design and problem-solving, always striving to create meaningful and innovative solutions. Whether it’s crafting seamless digital experiences, tackling complex challenges, or bringing unique ideas to life, I love turning creativity into impact. This portfolio is a reflection of my journey, showcasing the work I’ve done and the values that drive me forward. Thank you for taking the time to explore—I hope it inspires and connects us!</p>
+
+        
+        </div>
+     
+			</article>
+
+			<aside class="span1 col">
 					<img id="mainPic" src="images/whitey.png" style="width: 50%;" height="auto">
           
-</aside>
+			</aside>
 
-<!-- Portfolio Section -->
-<aside class="span1 col" id="maine">
+  <aside class="span1 col" id="maine">
   <a name="myAnchor" id="myAnchor"><h1>Portfolio</h1></a>
+  <h1>Portfolio</h1>
   <p>
-    Below are links to my work as a developer...
+    Below are links to my work as a developer. Whether it's a javascript game
+    with an original score or an eCommerce website for your online business,
+    I am certain you will find something here that catches your interest. All
+    feedback is welcome, of course.
   </p>
 
-  <!-- Swiper Image Slider -->
   <div class="swiper-container">
     <div class="swiper-wrapper">
       <!-- Slide 1 -->
@@ -106,76 +109,83 @@
         <a href="https://norgias.github.io/BrickBreaker/canvas.html">
           <img src="images/game.png" alt="Brick Breaker Game" />
         </a>
-        <h1 class="ort">Brick Breaker Game using JavaScript</h1>
+        <h1 class="ort">
+          Brick Breaker Game using JavaScript and my own original background
+          music
+        </h1>
       </div>
       <!-- Slide 3 -->
       <div class="swiper-slide">
         <a href="http://norgias.github.io/NaniExtensions/index.html">
           <img src="images/nani.png" alt="Nani Extensions eCommerce" />
         </a>
-        <h1 class="ort">Nani Extensions E-Commerce</h1>
+        <h1 class="ort">
+          An E-commerce website that utilizes PayPal for the checkout
+        </h1>
       </div>
       <!-- Slide 4 -->
       <div class="swiper-slide">
         <a href="http://norgias.github.io/Larryn/LarrynIndex.html">
           <img src="images/larryn.png" alt="Non-Profit Website" />
         </a>
-        <h1 class="ort">Non-Profit Organization Website</h1>
+        <h1 class="ort">A website I made for a non-profit organization</h1>
       </div>
     </div>
-    <!-- Swiper Navigation Buttons -->
+    <!-- Swiper Navigation -->
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
     <div class="swiper-pagination"></div>
   </div>
 </aside>
 
-<!-- Interests Section -->
-<article id="interests">
-  <a name="myAnchor2" id="myAnchor2"><h1>Hobbies & Interests</h1></a>
-  <img id="Pic" src="images/collage2.png" style="width: 100%;" height="auto" alt="Hobbies and Interests">
-</article>
+      
 
-<!-- Contact Section -->
-<article id="contact">
-  <a name="myAnchor3" id="myAnchor3"><h1>Get in Touch</h1></a>
-  <h2>norgias@gmail.com</h2>
-  <div class="socialmedia">
-    <a href="https://www.instagram.com/fullstack88/">
-      <img height="100" width="100" src="images/insta3.png" alt="Instagram">
-    </a>
-    <a href="https://github.com/norgias">
-      <img height="100" width="100" src="images/gitty.png" alt="GitHub">
-    </a>
-    <a href="https://ca.linkedin.com/in/norgias">
-      <img height="100" width="100" src="images/linky.png" alt="LinkedIn">
-    </a>
-  </div>
-</article>
+      
+     
+      <article class="span1" id="one">
+      <a name="myAnchor2" id="myAnchor2"><h1 class="soTired">Hobbies & Interests</h1></a>
+        <h1 class="soTired">Hobbies & Interests</h1>
+        <img id="Pic" src="images/collage2.png" style="width: 100%;" height="auto">
+          
+      
+      
+     
+      
+      
+     </article> 
+     
 
-<!-- Footer -->
-<footer>
-  &copy; 2016 - Nicolas J Orgias - Dynamic Web Development
-</footer>
+     <article class="span1" id="two">
+      <a name="myAnchor3" id="myAnchor3"><h1 id="tiredd" class="soTired">Get in touch...</h1></a>
+      <h1 id="tiredd" class="soTired">Get in touch...</h1><br><h2 id="emailA">norgias@gmail.com</h2>
+      <article class="socialmedia">
+        <a href="https://www.instagram.com/fullstack88/"><img  height="100" width="100" src="images/insta3.png" alt="instagram"></a>
+        <a href="https://github.com/norgias"><img height="100" width="100" src="images/gitty.png" alt="github"></a>
+        <a href="https://ca.linkedin.com/in/norgias"><img height="100" width="100" src="images/linky.png" alt="linkedin"></a>
+        
+      
+      </article>
 
-<!-- Swiper Scripts -->
+        
+   
+      
+      
+     
+      
+      
+     </article> 
+     
+
+   
+
+  
+
+  </div> <!--! end of #container -->
+
+  <footer>
+    &copy 2016 - Nicolas J Orgias - Dynamic Web Development
+  </footer>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script>
-  // Initialize Swiper Slider
-  const swiper = new Swiper('.swiper-container', {
-    loop: true,
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    },
-    spaceBetween: 30, /* Adds space between slides */
-  });
-</script>
-
+<script src="js/jquery.js?v1.0"></script>
 </body>
 </html>
-
