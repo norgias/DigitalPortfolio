@@ -631,7 +631,11 @@ section{
 /* Responsify Defaults */
 
 @media screen and (max-width: 768px){
-   #maine, #one {
+   
+  #pic {
+     margin-left: -30px;
+   }
+  #maine, #one {
     margin-bottom: 0; /* Reduces any extra bottom margin from both elements */
     margin-top: 0;    /* Reduces any extra top margin, if present */
     padding: 0;       /* Removes any padding inside both elements */
@@ -642,6 +646,8 @@ section{
   #one {
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 20px;
+    margin-top: -20px;
   }
   header {
     margin-top: 0; /* Reduces top margin if there's any extra space */
@@ -694,15 +700,21 @@ section{
 }
 
 @media screen and (max-width: 480px){
-
+  
+  #pic {
+     margin-left: -30px;
+   }
+ 
   #maine, #one {
     margin-bottom: 0; /* Reduces any extra bottom margin from both elements */
     margin-top: 0;    /* Reduces any extra top margin, if present */
     padding: 0;       /* Removes any padding inside both elements */
   }
    #one {
-     margin-right: auto;
-     margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    margin-top: -20px;
   }
   #mainPic {
     margin-left: -170px;
