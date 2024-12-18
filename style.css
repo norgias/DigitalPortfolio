@@ -631,7 +631,7 @@ section{
 /* Responsify Defaults */
 
 @media screen and (max-width: 768px){
-   #main, #one {
+   #maine, #one {
     margin-bottom: 0; /* Reduces any extra bottom margin from both elements */
     margin-top: 0;    /* Reduces any extra top margin, if present */
     padding: 0;       /* Removes any padding inside both elements */
@@ -689,6 +689,13 @@ section{
 }
 
 @media screen and (max-width: 480px){
+
+  #maine, #one {
+    margin-bottom: 0; /* Reduces any extra bottom margin from both elements */
+    margin-top: 0;    /* Reduces any extra top margin, if present */
+    padding: 0;       /* Removes any padding inside both elements */
+  }
+  
   #mainPic {
     margin-left: -155px;
    
@@ -804,20 +811,20 @@ h1.ort {
 /* Additional styles for small monitors */
 @media (max-width: 979px) {
   .swiper-slide img {
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
   }
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
   .swiper-slide img {
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
   }
 }
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
   .swiper-slide img {
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
   }
 }
