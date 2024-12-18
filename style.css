@@ -636,8 +636,12 @@ section{
     margin-top: 0;    /* Reduces any extra top margin, if present */
     padding: 0;       /* Removes any padding inside both elements */
   }
-  
-  
+  #maine {
+    margin-bottom: -15px;
+  }
+  #one {
+    margin-right: 50px;
+  }
   header {
     margin-top: 0; /* Reduces top margin if there's any extra space */
     padding-top: 10px; /* Adjust padding as needed */
@@ -695,7 +699,9 @@ section{
     margin-top: 0;    /* Reduces any extra top margin, if present */
     padding: 0;       /* Removes any padding inside both elements */
   }
-  
+   #one {
+     margin-right: 50px;
+  }
   #mainPic {
     margin-left: -155px;
    
