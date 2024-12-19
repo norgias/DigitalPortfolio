@@ -24,6 +24,9 @@ footer, header, hgroup, menu, nav, section {
     display:block;
     z-index: 10;
 }
+.span1.col {
+  background-color: black;
+}
 
 nav ul, nav li { margin: 0; }
 nav ul, ul { list-style:none; }
