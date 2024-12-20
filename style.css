@@ -26,6 +26,7 @@ footer, header, hgroup, menu, nav, section {
 }
 .span1.col {
   background-color: black;
+  max-width: 100%;
 }
 
 nav ul, nav li { margin: 0; }
