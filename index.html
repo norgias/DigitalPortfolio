@@ -1,86 +1,144 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>  
+<html> 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
-  <meta http-equiv="pragma" content="no-cache">
-  <meta http-equiv="expires" content="0">
+  
   <title>Nick Orgias - Digital Portfolio</title>
+ 
   <link rel="shortcut icon" href="/favicon.ico">
-  <!-- Swiper CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="style.css">
-  <!-- Jquery library -->
+ 	<link rel="stylesheet" href="style.css?v1.1">
+ <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <!-- Modernizer -->
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js"></script>
+ 
+  
+ 
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js"></script>
+
+  <style type="text/css">
+    img.port {
+      box-shadow: 10px 10px 5px #888888;
+    }
+    section.clearfix {
+      margin-top: 45px;
+      min-height: 100px;
+    }
+
+  </style>
+ 
 </head>
 
-<body>
-  <!-- Navigation Menu -->
-  <header>
-    <nav class="nav-menu">
-      <a href="#myAnchor0">Home</a>
-      <a href="#myAnchor">Portfolio</a>
-      <a href="#myAnchor3">Contact</a>
-    </nav>
-  </header>
-
-  <!-- Image Slider Carousel -->
-  <div class="slider-container">
-    <h1 class="slider-title">Portfolio</h1>
-    <div class="swiper-container">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <a href="http://testingpage.altervista.org/">
-            <img src="images/roswell.png" alt="Roswell Gymnastics">
-          </a>
-          <h2>Roswell Gymnastics</h2>
-        </div>
-        <div class="swiper-slide">
-          <a href="https://norgias.github.io/BrickBreaker/canvas.html">
-            <img src="images/game.png" alt="Brick Breaker Game">
-          </a>
-          <h2>Brick Breaker Game</h2>
-        </div>
-        <div class="swiper-slide">
-          <a href="http://norgias.github.io/NaniExtensions/index.html">
-            <img src="images/nani.png" alt="Nani Extensions eCommerce">
-          </a>
-          <h2>Nani Extensions eCommerce</h2>
-        </div>
-        <div class="swiper-slide">
-          <a href="http://norgias.github.io/Larryn/LarrynIndex.html">
-            <img src="images/larryn.png" alt="Non-Profit Website">
-          </a>
-          <h2>Non-Profit Website</h2>
-        </div>
+<body class="cf">
+<div class="cont">
+<header class="clearfix">
+    <div class="container">
+      <div class="header-left">
+        <h1>NICOLAS J ORGIAS</h1>
+      </div>
+      <div class="header-right">
+        <label for="open">
+          <span class="hidden-desktop"></span>
+        </label>
+        <input type="checkbox" name="" id="open">
+        <nav>
+                <a href="#myAnchor0" rel="" id="anchor0">Home</a>
+                
+                <a href="#myAnchor" rel="" id="anchor1" class="anchorLink">Portfolio</a>
+                <a href="#myAnchor2" rel="" id="anchor2" class="anchorLink">Interests</a>
+                <a href="#myAnchor3" rel="" id="anchor3" class="anchorLink">Contact</a>
+        </nav>
       </div>
     </div>
-  </div>
+  </header>
+  </div class="cont">
+<section class="clearfix" style="width: 100%;">
+    <div class="container">
+      <div class="section-left">
+        <h1 class="section-title"></h1>
+        <h5 class="section-tagline"></h5>
+      </div>
+      
+    </div>
+  </section>
 
-  <!-- Footer -->
+  <div id="container" class="cf">  
+
+  	<article class="span1">
+				<div class="sect">
+          <a name="myAnchor0" id="myAnchor0"></a>
+          <h1>Welcome to my Page!</h1>
+          <br>
+          <p>Hello! My name is Nicolas J. Orgias, and I was born and raised in the vibrant city of Toronto, Ontario. I have a deep passion for design and problem-solving, always striving to create meaningful and innovative solutions. Whether it’s crafting seamless digital experiences, tackling complex challenges, or bringing unique ideas to life, I love turning creativity into impact. This portfolio is a reflection of my journey, showcasing the work I’ve done and the values that drive me forward. Thank you for taking the time to explore—I hope it inspires and connects us!</p>
+
+        
+        </div>
+     
+			</article>
+
+			<aside class="span1 col">
+					<img id="mainPic" src="images/whitey.png" style="width: 50%;" height="auto">
+          
+			</aside>
+
+      <aside class="span1 col" id="maine">
+        <a name="myAnchor" id="myAnchor"><h1>Portfolio</h1></a>
+        <h1>Portfolio</h1>
+          <p>Below are links to my work as a developer. Whether it's a javascript game with an original score or an ecommerce website for your online business, I am certain you will find something here that catches your interest. All feedback is welcome of course.</p>
+         <a href="http://testingpage.altervista.org/"><img class="port" src="images/roswell.png" style="width: 50%;" height="auto"></a><h1 class="ort">Roswell Gymnastics</h1><br><br><br><br>
+          <a href="https://norgias.github.io/BrickBreaker/canvas.html"><img  class="port" src="images/game.png" style="width: 50%;" height="auto"></a><h1 class="ort">Brick Breaker Game using JavaScript and my own original background music</h1><br><br><br><br>
+          <a href="http://norgias.github.io/NaniExtensions/index.html"><img class="port"  src="images/nani.png" style="width: 50%;" height="auto"></a><h1 class="ort">An E-commerce website that utilizes paypal for the checkout</h1><br><br><br><br>
+         <a href="http://norgias.github.io/Larryn/LarrynIndex.html"><img class="port"  src="images/larryn.png" style="width: 50%;" height="auto"></a><br><h1 class="ort">A website I made for a non-profit organization</h1><br><br><br>
+      
+      </aside>
+
+      
+
+      
+     
+      <article class="span1" id="one">
+      <a name="myAnchor2" id="myAnchor2"><h1 class="soTired">Hobbies & Interests</h1></a>
+        <h1 class="soTired">Hobbies & Interests</h1>
+        <img id="Pic" src="images/collage2.png" style="width: 100%;" height="auto">
+          
+      
+      
+     
+      
+      
+     </article> 
+     
+
+     <article class="span1" id="two">
+      <a name="myAnchor3" id="myAnchor3"><h1 id="tiredd" class="soTired">Get in touch...</h1></a>
+      <h1 id="tiredd" class="soTired">Get in touch...</h1><br><h2 id="emailA">norgias@gmail.com</h2>
+      <article class="socialmedia">
+        <a href="https://www.instagram.com/fullstack88/"><img  height="100" width="100" src="images/insta3.png" alt="instagram"></a>
+        <a href="https://github.com/norgias"><img height="100" width="100" src="images/gitty.png" alt="github"></a>
+        <a href="https://ca.linkedin.com/in/norgias"><img height="100" width="100" src="images/linky.png" alt="linkedin"></a>
+        
+      
+      </article>
+
+        
+   
+      
+      
+     
+      
+      
+     </article> 
+     
+
+   
+
+  
+
+  </div> <!--! end of #container -->
+
   <footer>
     &copy 2016 - Nicolas J Orgias - Dynamic Web Development
   </footer>
 
-  <!-- Swiper Scripts -->
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script>
-    const swiper = new Swiper('.swiper-container', {
-      loop: true,
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      spaceBetween: 50,
-    });
-  </script>
+<script src="js/jquery.js"></script>
 </body>
 </html>
