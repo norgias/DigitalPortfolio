@@ -75,11 +75,22 @@ div.sect > p {
   font-size: 15px;
   
 }
+
+#maine h1 {
+  margin-top: -20px;
+}
+#maine p {
+  max-width: 800px; /* Restricts text width for better readability */
+  margin: 0 auto; /* Centers the text within the section */
+  line-height: 1.6; /* Improves text readability with better spacing */
+}
+
 body{
   font-size: 87.5%;
   color: #252e35;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   line-height: 1.5em;
+  margin: 0;
   
 }
 
