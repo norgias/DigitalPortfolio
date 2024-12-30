@@ -65,7 +65,7 @@ div.sect > p {
   text-align: center;
   background-color: black;
   color: white;
-  width: 100vw;
+  width: calc(100vw + 40px); /* Expands width on each side */
   box-sizing: border-box;
   margin: 0;
   margin-top: 20%;
@@ -476,8 +476,7 @@ section{
     width: 100%;
   }
   #maine {
-    width: 100vw; /* Ensures full width on smaller screens */
-  
+   width: calc(100vw + 40px); /* Expands width on each side */
   }
   .span1, aside{
     width: 100%;
@@ -513,7 +512,7 @@ section{
     margin-left: -5px;
   }
   #maine {
-    width: 100vw; /* Full width on very small screens */
+   width: calc(100vw + 40px); /* Expands width on each side */
   }
   header {
     margin-left: -5px;
