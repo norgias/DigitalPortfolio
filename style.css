@@ -655,8 +655,9 @@ section{
     width: 100%;
   }
   
-  #maine {
-    width: 100%;
+   #maine {
+    width: 100vw; /* Ensures full width on smaller screens */
+    padding: 30px 15px; /* Adjust padding for smaller screens */
   }
 
   .span1, aside{
@@ -695,6 +696,10 @@ section{
 @media screen and (max-width: 480px){
   footer {
     margin-left: -5px;
+  }
+  #maine {
+    width: 100vw; /* Full width on very small screens */
+    padding: 20px 10px; /* Adjust padding for very small screens */
   }
   header {
     margin-left: -5px;
