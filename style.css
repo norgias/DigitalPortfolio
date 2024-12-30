@@ -475,7 +475,7 @@ section{
   }
   #maine {
     width: 100vw; /* Ensures full width on smaller screens */
-    padding: 30px 15px; /* Adjust padding for smaller screens */
+  
   }
   .span1, aside{
     width: 100%;
@@ -512,7 +512,6 @@ section{
   }
   #maine {
     width: 100vw; /* Full width on very small screens */
-    padding: 20px 10px; /* Adjust padding for very small screens */
   }
   header {
     margin-left: -5px;
