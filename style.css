@@ -73,12 +73,12 @@ div.sect > p {
   margin: 0;
   margin-top: 20%;
   font-size: 15px;
+  min-height: 500px;
+  
   
 }
 
-#maine h1 {
-  margin-top: -20px;
-}
+
 #maine p {
   max-width: 800px; /* Restricts text width for better readability */
   margin: 0 auto; /* Centers the text within the section */
