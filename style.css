@@ -113,9 +113,6 @@ p{
   margin: 0 auto;
 }
 
-header{
-  background: red;
-}
 
 header h1{
   margin: 7px 0 0 0;
@@ -169,7 +166,8 @@ div.sect {
 
 header {
     position: fixed;
-    background-color: red;
+    background-color: black;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
     width: 100%;
     height: 20px;
     z-index: 10;
