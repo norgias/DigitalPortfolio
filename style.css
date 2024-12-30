@@ -121,10 +121,10 @@ header h1{
   margin: 7px 0 0 0;
 }
 
-#container{
+#container {
   clear: both;
-  padding-top: 20px;
-  margin-top: 100px;
+  padding-top: -50px;
+  margin-top: -100px;
 }
 
 .alt{
