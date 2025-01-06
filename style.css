@@ -469,7 +469,7 @@ form button {
 @media screen and (max-width: 768px) {
     #player {
         position: fixed; /* Ensures it stays in place during scrolling */
-        top: 50px;
+        top: -200px;
         bottom: 0;
         left: 0;
         right: 0;
