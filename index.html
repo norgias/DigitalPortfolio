@@ -1,145 +1,114 @@
-<!doctype html>  
-<html> 
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  
-  <title>Nick Orgias - Digital Portfolio</title>
- 
-  <link rel="shortcut icon" href="/favicon.ico">
- 	<link rel="stylesheet" href="style.css?v3.7">
- <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
- 
-  
- 
-<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.5.3/modernizr.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
 
-  <style type="text/css">
-    img.port {
-      box-shadow: 10px 10px 5px #888888;
-    }
-    section.clearfix {
-      margin-top: 45px;
-      min-height: 100px;
-    }
-
-  </style>
- 
+    <title>Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=13.6">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
 </head>
-
-<body class="cf">
-<div class="cont">
-<header class="clearfix">
-    <div class="container">
-      <div class="header-left">
-        <h1>NICOLAS J ORGIAS</h1>
-      </div>
-      <div class="header-right">
-        <label for="open">
-          <span class="hidden-desktop"></span>
-        </label>
-        <input type="checkbox" name="" id="open">
-        <nav>
-                <a href="#myAnchor0" rel="" id="anchor0">Home</a>
-                
-                <a href="#myAnchor1" rel="" id="anchor1" class="anchorLink">Portfolio</a>
-                <a href="#myAnchor2" rel="" id="anchor2" class="anchorLink">Interests</a>
-                <a href="#myAnchor3" rel="" id="anchor3" class="anchorLink">Contact</a>
+<body>
+<div id="video-container">
+    <div id="player"></div>
+</div>
+    
+    <header>
+        <nav id="navbar">
+            <div id="name-header">Nicolas J. Orgias | Web Development | Video Editing</div>
+            <button id="menu-toggle">
+                <i class="fas fa-bars"></i> <!-- Hamburger Icon -->
+                <i class="fas fa-times"></i> <!-- X Icon -->
+            </button>
+            <ul id="menu">
+                <li><a href="#about">HOME</a></li>
+                <li><a href="#slider1">WEB</a></li>
+                <li><a href="#slider2">VIDEO</a></li>
+                <li><a href="#contact">EMAIL</a></li>
+            </ul>
         </nav>
-      </div>
-    </div>
-  </header>
-  </div class="cont">
-<section class="clearfix" style="width: 100%;">
-    <div class="container">
-      <div class="section-left">
-        <h1 class="section-title"></h1>
-        <h5 class="section-tagline"></h5>
-      </div>
-      
-    </div>
-  </section>
+    </header>
 
-  <div id="container" class="cf">  
-
-  	<article class="span1">
-				<div class="sect">
-          <a name="myAnchor0" id="myAnchor0"></a>
-          <h1>Welcome to my Page!</h1>
-          <br>
-          <p>Hello! My name is Nicolas J. Orgias, and I was born and raised in the vibrant city of Toronto, Ontario. I have a deep passion for design and problem-solving, always striving to create meaningful and innovative solutions. Whether it’s crafting seamless digital experiences, tackling complex challenges, or bringing unique ideas to life, I love turning creativity into impact. This portfolio is a reflection of my journey, showcasing the work I’ve done and the values that drive me forward. Thank you for taking the time to explore—I hope it inspires and connects us!</p>
+   
 
         
+        
+        <section class="about" id="about">
+            <div class="about-box">
+               <h1>ABOUT ME</h1>
+               <p>Hello! I'm Nick, a designer and problem solver hailing from Toronto. I turn ideas into reality through web development and video editing. With a passion for stunning, functional designs, I create experiences that leave a lasting impact. My journey has sharpened my skills, blending technical expertise with artistic vision. Let's build something amazing together!</p>
+            </div>
+        </section>
+
+   <section id="slider2" class="section slider">
+         <h2>VIDEO EDITING</h2>
+            <div class="carousel">
+                <div class="carousel-track">
+                    <!-- Add YouTube video links and thumbnails -->
+                    <a href="https://www.youtube.com/watch?v=J-_PtftrunI" target="_blank" class="carousel-item">
+                    <img src="https://img.youtube.com/vi/J-_PtftrunI/maxresdefault.jpg" alt="Video 1 Thumbnail"><span class="carousel-label"></span></a>
+                    <a href="https://www.youtube.com/watch?v=d1pUVqH36cI" target="_blank" class="carousel-item">
+                    <img src="https://img.youtube.com/vi/d1pUVqH36cI/maxresdefault.jpg" alt="Video 2 Thumbnail"><span class="carousel-label"></span></a>
+                    <a href="https://www.youtube.com/watch?v=oe7NVslmKN8" target="_blank" class="carousel-item">
+                    <img src="https://img.youtube.com/vi/oe7NVslmKN8/maxresdefault.jpg" alt="Video 3 Thumbnail"><span class="carousel-label"></span></a>
+                 </div>
+               <button class="carousel-btn prev">&#9664;</button>
+               <button class="carousel-btn next">&#9654;</button>
+             </div>
+        </section>
+
+    
+<section id="slider1" class="section slider" style="color: black;">
+    <h2>WEB DEVELOPEMENT</h2>
+    <div class="carousel">
+        <div class="carousel-track">
+            <!-- Add placeholders for project links -->
+            <a href="https://norgias.github.io/Larryn/" target="_blank" class="carousel-item">
+                <img src="larryn.png" alt="Project 1 Thumbnail">
+                <span class="carousel-label">A web solution for a small charity based in Atlanta</span>
+            </a>
+            <a href="https://example.com/project2" target="_blank" class="carousel-item">
+                <img src="https://via.placeholder.com/800" alt="Project 2 Thumbnail">
+                <span class="carousel-label">A web solution for a small charity based in Atlanta</span>
+            </a>
+            <a href="https://example.com/project3" target="_blank" class="carousel-item">
+                <img src="https://via.placeholder.com/800" alt="Project 3 Thumbnail">
+                <span class="carousel-label">A web solution for a small charity based in Atlanta</span>
+            </a>
         </div>
-     
-			</article>
+        <button class="carousel-btn prev">&#9664;</button>
+        <button class="carousel-btn next">&#9654;</button>
+    </div>
+</section>
 
-			<aside class="span1 col">
-					<img id="mainPic" src="images/whitey.png" style="width: 50%;" height="auto">
-          
-			</aside>
+ 
 
-      <aside class="span1 col" id="maine">
-       
-        <h1>PORTFOLIO</h1>
-	      <a name="myAnchor1" id="myAnchor1"></a>
-          <p>Below are links to my work as a developer...</p>
-         <a href="http://testingpage.altervista.org/"><img class="port" src="images/roswell.png" style="width: 50%;" height="auto"></a><h1 class="ort">Roswell Gymnastics</h1><br><br><br><br>
-          <a href="https://norgias.github.io/BrickBreaker/canvas.html"><img  class="port" src="images/game.png" style="width: 50%;" height="auto"></a><h1 class="ort">Brick Breaker Game using JavaScript and my own original background music</h1><br><br><br><br>
-          <a href="http://norgias.github.io/NaniExtensions/index.html"><img class="port"  src="images/nani.png" style="width: 50%;" height="auto"></a><h1 class="ort">An E-commerce website that utilizes paypal for the checkout</h1><br><br><br><br>
-         <a href="http://norgias.github.io/Larryn/LarrynIndex.html"><img class="port"  src="images/larryn.png" style="width: 50%;" height="auto"></a><br><h1 class="ort">A website I made for a non-profit organization</h1><br><br><br>
-      
-      </aside>
+        <section id="contact" class="section contact">
+            <h2>CONTACT</h2>
+            <form id="contact-form" action="https://formspree.io/f/mpwwolqr" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
 
-      
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
 
-      
-     
-      <article class="span1" id="one">
-      <a name="myAnchor2" id="myAnchor2"><h1 class="soTired">Hobbies & Interests</h1></a>
-        <h1 class="soTired">Hobbies & Interests</h1>
-        <img id="Pic" src="images/collage2.png" style="width: 100%;" height="auto">
-          
-      
-      
-     
-      
-      
-     </article> 
-     
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
 
-     <article class="span1" id="two">
-      <a name="myAnchor3" id="myAnchor3"><h1 id="tiredd" class="soTired">Get in touch...</h1></a>
-      <h1 id="tiredd" class="soTired">Get in touch...</h1><br><h2 id="emailA">norgias@gmail.com</h2>
-      <article class="socialmedia">
-        <a href="https://www.instagram.com/fullstack88/"><img  height="100" width="100" src="images/insta3.png" alt="instagram"></a>
-        <a href="https://github.com/norgias"><img height="100" width="100" src="images/gitty.png" alt="github"></a>
-        <a href="https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav"><img height="100" width="100" src="images/linky.png" alt="linkedin"></a>
-        
-      
-      </article>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
 
-        
-   
-      
-      
-     
-      
-      
-     </article> 
-     
-
-   
-
-  
-
-  </div> <!--! end of #container -->
-
-  <footer>
-    &copy 2016 - Nicolas J Orgias - Dynamic Web Development
-  </footer>
-
-<script src="js/jquery.js"></script>
+    <footer>
+        <p>2024 Nicolas J Orgias Portfolio</p>
+    </footer>
+        <!-- Include YouTube Player API -->
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="javascript.js?v=2.6"></script>
 </body>
 </html>
