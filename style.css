@@ -30,15 +30,7 @@ body, html {
     background: black;
 }
 
-#background-video {
-    position: absolute;
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Adjust for exact centering */
-    width: 100vw; /* Full viewport width */
-    height: 100vh; /* Full viewport height */
-    object-fit: cover; /* Ensure the video covers the entire container */
-}
+
 
 /* Page Content */
 #content {
