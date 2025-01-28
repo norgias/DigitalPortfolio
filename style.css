@@ -157,7 +157,7 @@ Copy code
 
 /* Specific Styles for Slider 1 */
 #slider1 {
-    background-color: rgb(60, 179, 113); /* Light green for slider1 background color */
+    background-color: #008200; /* Light green for slider1 background color */
     height: auto; /* Lets the height adjust to the content */
     min-height: 150px; /* Ensure a minimum height for visual balance */
 }
