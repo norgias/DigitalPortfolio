@@ -163,7 +163,7 @@ Copy code
 }
 #slider1 h2 {
     background-color: rgba(255, 255, 255, 0.5);
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
     display: inline-block; /* Ensures the box adjusts to the text width */
     padding: 10px 20px; /* Adds spacing inside the box */
     border: 2px solid ; /* Creates the border */
@@ -277,7 +277,7 @@ Copy code
     max-width: 100%; /* Ensure images are responsive */
     border-radius: 10px; /* Optional: Rounded edges for thumbnails */
     transition: transform 0.3s ease; /* Add hover effect */
-    box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.5);
 }
 
 .carousel-item img:hover {
