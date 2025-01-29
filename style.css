@@ -258,7 +258,7 @@ Copy code
     text-decoration: none; /* Remove underline from links */
 }
 .carousel-label {
-    margin-top: 10px; /* Space between image and label */
+    margin-top: 22px; /* Space between image and label */
     font-size: 16px; /* Adjust font size */
     color: black; /* White text color */
     text-align: center; /* Center-align label text */
