@@ -393,17 +393,17 @@ form button {
 
     #menu-toggle {
         position: absolute;
-        left: -10px; /* Hamburger icon to the far left */
+        left: -5px; /* Hamburger icon to the far left */
     }
     #name-header {
          position: relative; /* Ensure it doesn't interfere with other elements */
          max-width: 80% !important; /* Prevents it from taking too much space */
          overflow: hidden; /* Avoids overlapping content */
          flex: 0 1 auto; /* Prevents it from growing too large */
-         font-size: 12px; /* reduce font size per mobile */
+         font-size: 13px; /* reduce font size per mobile */
          padding-right: 20px;
          background-color: transparent !important;
-         margin-left: -30px;
+         margin-left: -25px;
     }
 }
 
