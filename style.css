@@ -157,7 +157,7 @@ Copy code
 
 /* Specific Styles for Slider 1 */
 #slider1 {
-    background-color: #008200; /* Light green for slider1 background color */
+    background-color: white; /* Light green for slider1 background color */
     height: auto; /* Lets the height adjust to the content */
     min-height: 150px; /* Ensure a minimum height for visual balance */
 }
@@ -166,9 +166,9 @@ Copy code
     box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.8);
     display: inline-block; /* Ensures the box adjusts to the text width */
     padding: 10px 20px; /* Adds spacing inside the box */
-    border: 2px solid white; /* Creates the border */
+    border: 2px solid ; /* Creates the border */
     border-radius: 10px; /* Rounds the edges slightly */
-    color: black; /* Text color */
+    color: black; black/* Text color */
     font-size: 24px; /* Adjusts the font size */
     text-align: center; /* Centers the text */
 }
@@ -260,7 +260,7 @@ Copy code
 .carousel-label {
     margin-top: 10px; /* Space between image and label */
     font-size: 16px; /* Adjust font size */
-    color: white; /* White text color */
+    color: black; /* White text color */
     text-align: center; /* Center-align label text */
 }
 
