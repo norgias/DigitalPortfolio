@@ -474,6 +474,63 @@ form button {
     }
 }
 
+/* iPhone SE (1st & 2nd Gen), iPhone 5, 5S, 5C */
+@media only screen and (max-width: 320px) {
+   
+}
+
+/* iPhone 6, 6S, 7, 8, SE (3rd Gen) */
+@media only screen and (max-width: 375px) {
+   
+}
+
+/* iPhone X, XR, 11, 12 Mini, 13 Mini */
+@media only screen and (max-width: 414px) {
+    #menu-toggle {
+        position: absolute;
+        left: -5px; /* Hamburger icon to the far left */
+    }
+    #name-header {
+         position: relative; /* Ensure it doesn't interfere with other elements */
+         max-width: 80% !important; /* Prevents it from taking too much space */
+         overflow: hidden; /* Avoids overlapping content */
+         flex: 0 1 auto; /* Prevents it from growing too large */
+         font-size: 13px; /* reduce font size per mobile */
+         padding-right: 20px;
+         background-color: transparent !important;
+         margin-left: -20px;
+    }
+}
+
+/* iPhone 12, 13, 14, 15, Pro Models */
+@media only screen and (max-width: 430px) {
+    #menu-toggle {
+        position: absolute;
+        left: -5px; /* Hamburger icon to the far left */
+    }
+    #name-header {
+         position: relative; /* Ensure it doesn't interfere with other elements */
+         max-width: 80% !important; /* Prevents it from taking too much space */
+         overflow: hidden; /* Avoids overlapping content */
+         flex: 0 1 auto; /* Prevents it from growing too large */
+         font-size: 13px; /* reduce font size per mobile */
+         padding-right: 20px;
+         background-color: transparent !important;
+         margin-left: -20px;
+    }
+}
+
+/* iPhone 12 Pro Max, 13 Pro Max, 14 Pro Max, 15 Pro Max */
+@media only screen and (max-width: 460px) {
+   
+}
+
+/* General rule for iPhones in landscape mode */
+@media only screen and (max-height: 430px) and (orientation: landscape) {
+    
+}
+
+
 
 
 
