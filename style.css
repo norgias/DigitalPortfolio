@@ -488,7 +488,7 @@ form button {
 @media only screen and (max-width: 414px) {
     #menu-toggle {
         position: absolute;
-        left: -7px; /* Hamburger icon to the far left */
+        left: -5px; /* Hamburger icon to the far left */
     }
     #name-header {
          position: relative; /* Ensure it doesn't interfere with other elements */
@@ -498,7 +498,7 @@ form button {
          font-size: 13px; /* reduce font size per mobile */
          padding-right: 20px;
          background-color: transparent !important;
-         margin-left: 20px;
+         margin-left: 10px;
     }
 }
 
@@ -506,7 +506,7 @@ form button {
 @media only screen and (max-width: 430px) {
     #menu-toggle {
         position: absolute;
-        left: -7px; /* Hamburger icon to the far left */
+        left: -5px; /* Hamburger icon to the far left */
     }
     #name-header {
          position: relative; /* Ensure it doesn't interfere with other elements */
@@ -516,7 +516,7 @@ form button {
          font-size: 13px; /* reduce font size per mobile */
          padding-right: 20px;
          background-color: transparent !important;
-         margin-left: 20px;
+         margin-left: 10px;
     }
 }
 
