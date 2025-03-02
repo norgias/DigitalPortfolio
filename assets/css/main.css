@@ -1677,3 +1677,20 @@ body.is-article-visible #bg-video {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+/* Video Player Responsiveness */
+
+@media (max-width: 768px) {
+	#vid {
+	   max-width: 60%;
+		
+   }
+}
+
+@media (max-width: 480px) {
+	#vid {
+	   max-width: 60%;
+		
+   }
+}
+
