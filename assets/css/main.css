@@ -1157,7 +1157,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/clouds.mp4");
+			background-image: url("../../images/clouds.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1178,6 +1178,25 @@ input, select, textarea {
 		body.is-preload #bg:before {
 			background-color: #000000;
 		}
+
+		#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 1;
+    object-fit: cover;
+    transform: scale(1.125);
+    transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
+}
+
+body.is-article-visible #bg-video {
+    transform: scale(1.0825);
+    filter: blur(0.2rem);
+}
 
 /* Wrapper */
 
