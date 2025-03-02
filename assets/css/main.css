@@ -1682,14 +1682,14 @@ body.is-article-visible #bg-video {
 
 @media (max-width: 768px) {
 	#vid {
-	   max-width: 60%;
+	   max-width: 85%;
 		
    }
 }
 
 @media (max-width: 480px) {
 	#vid {
-	   max-width: 60%;
+	   max-width: 85%;
 		
    }
 }
