@@ -1694,3 +1694,11 @@ body.is-article-visible #bg-video {
    }
 }
 
+/* Fantasy Property Prices Mobile Responsiveness for Title in Section */
+@media (max-width: 600px); {
+        h2 {
+		display: block;
+		text-align: center;
+	}
+}
+
