@@ -90,14 +90,46 @@
 								<iframe id="vid" width="560" height="315" src="https://www.youtube.com/embed/AEOquK16yVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 								<p>A short video I made for some social media branding leveraging runwayML and CapCut</p>
 							</article>
-						        <article id="about">
-  <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@thirdeyedocumentaries/video/7479253898151071019" data-video-id="7479253898151071019" id="vid" style="max-width: 560px; min-width: 325px;">
-    <section></section>
-  </blockquote>
-  <script async src="https://www.tiktok.com/embed.js"></script>
+								<article id="about">
+  <div id="tiktok-container" style="width: 560px; height: 315px; margin: 0 auto;"></div>
+  
+  <script>
+    // Function to load TikTok video using oEmbed API
+    function loadTikTokVideo() {
+      const container = document.getElementById('tiktok-container');
+      const videoUrl = 'https://www.tiktok.com/@thirdeyedocumentaries/video/7479253898151071019';
+      
+      // Create oEmbed API URL
+      const oEmbedUrl = `https://www.tiktok.com/oembed?url=${encodeURIComponent(videoUrl)}`;
+      
+      // Fetch the oEmbed data
+      fetch(oEmbedUrl)
+        .then(response => response.json())
+        .then(data => {
+          // Insert the HTML from the API response
+          container.innerHTML = data.html;
+          
+          // Find the iframe that gets created and add your id
+          setTimeout(() => {
+            const iframes = container.getElementsByTagName('iframe');
+            if (iframes.length > 0) {
+              iframes[0].id = 'vid';
+            }
+          }, 1000); // Give time for TikTok's script to create the iframe
+        })
+        .catch(error => {
+          console.error('Error loading TikTok video:', error);
+          container.innerHTML = '<p>Error loading TikTok video</p>';
+        });
+    }
+    
+    // Call the function when the page is loaded
+    window.addEventListener('load', loadTikTokVideo);
+  </script>
+  
   <p>Step into the past with this AI-generated journey through Ancient Egypt! watch as grand temples, and the mighty pyramids come to life with stunning visuals made using Runway AI.</p>
 </article>
-						        
+					        
    
 
 						<!-- Contact -->
